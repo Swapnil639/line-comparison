@@ -9,6 +9,7 @@ import java.util.Scanner;
             x2=sc.nextInt();
             y1=sc.nextInt();
             y2=sc.nextInt();
+            
             double length1 = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
             System.out.println("Length of Line1: " + length1);
 
@@ -17,8 +18,10 @@ import java.util.Scanner;
             x2=sc.nextInt();
             y1=sc.nextInt();
             y2=sc.nextInt();
+            
             double length2 = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
             System.out.println("Length of Line1: " + length2);
+            
             if(length1==length2)
                 System.out.println("Line1 and Line2 are equal");
             else if(length1>length2)
